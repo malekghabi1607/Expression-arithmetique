@@ -31,4 +31,4 @@ Au lancement du programme il vous sera demander d'entrer une expression infixé.
 
 
 * Exemple terminale:
-<img width="586" alt="Capture d’écran 2024-06-01 à 23 50 24" src="https://github.com/malekghabi1607/-Expression-arithmetique-cpp/assets/145768940/a6f95111-e9c4-4578-a76b-1ef1272df4e5">
+* <img width="586" alt="Capture d’écran 2024-06-01 à 23 50 24" src="https://github.com/malekghabi1607/-Expression-arithmetique-cpp/assets/145768940/d0e96764-7a3a-4741-b26c-94483fc64533">
