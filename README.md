@@ -34,14 +34,8 @@ L'objectif de ce projet est de manipuler, évaluer et visualiser des **expressio
   - La représentation en **notation suffixée**.
   - La représentation en **notation infixe** avec parenthèses.
   - Le **résultat** de l'évaluation.
-🔹 L'arbre est visualisé sous forme hiérarchique.
-- Arbre binaire :
-- |– Opérateur: +
-- |– Opérateur: *
-- |– Valeur: 3
-- |– Valeur: 1
-- |– Valeur: 2
-- Résultat : 5
+  -   >  L'arbre est visualisé sous forme hiérarchique.
+
 
 
 ---
@@ -52,33 +46,28 @@ L'objectif de ce projet est de manipuler, évaluer et visualiser des **expressio
 
 **Exemple :**
 - **Entrée** : `3 * X + 2`
-- **Sortie** :
-Arbre dérivé :
-|– Opérateur: +
-|– Opérateur: *
-|– Valeur: 3
-|– Variable: X
-|– Valeur: 0
-Expression dérivée (infixe) : ((3 * X) + 3) + 0
+- **Sortie** : ((3 * X) + 3) + 0
 ---
 
 ## 🛠️ Installation et Utilisation
 
-1. **Cloner le projet :**
+1. **Cloner le dépôt :**  
+   Téléchargez le projet depuis GitHub en exécutant la commande suivante :
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
-   cd votre-projet
+   git clone https://github.com/malekghabi1607/-Expression-arithmetique-cpp.git
 
- 📂 Structure du Projet
+## 📂 Structure du Projet
 	•	exo_1 : Évaluation d’expressions suffixées.
 	•	exo_2 : Transformation infixe → suffixée.
 	•	exo_3 : Construction et affichage d’arbres binaires.
 	•	exo_4 : Dérivation et affichage des arbres dérivés.
 
-   👨‍💻 Auteur
+   -
+
+## 👨‍💻 Auteur
 
 Malek Ghabi
-Projet réalisé dans le cadre de la Programmation Orientée Objet (POO) - Année 2024.
 
-* Exemple terminale:
+
+
 * <img width="586" alt="Capture d’écran 2024-06-01 à 23 50 24" src="https://github.com/malekghabi1607/-Expression-arithmetique-cpp/assets/145768940/d0e96764-7a3a-4741-b26c-94483fc64533">
