@@ -1,34 +1,84 @@
-# -Expression-arithmetique-cpp
-Projet de fin d'année  POO - 2024 
+# ✨ Expression Arithmétique - Projet POO 2024 ✨
 
-* Exercice 1
+## 📜 Description
+Bienvenue dans ce projet de **Programmation Orientée Objet (POO)** en C++ !  
+L'objectif de ce projet est de manipuler, évaluer et visualiser des **expressions arithmétiques** grâce à différentes fonctionnalités : évaluation d'expressions, transformations entre notations, construction d'arbres binaires et dérivation.
 
-Evaluation d'expression suffixées :
+---
 
-au lancement du programme il vous sera demander d'entrer une expression suffixée, puis le programme affichera le résultat de l'expression. ATTENTION : Il est nécessaire de mettre un espace après chaque opérande afin de permettre au programme de les différencier. 
+## 🚀 Fonctionnalités
+
+### 1️⃣ **Évaluation d'expressions suffixées**
+🔹 Permet d'évaluer une expression arithmétique en notation suffixée (postfixée).  
+🔹 Chaque opérande et opérateur **doivent être séparés par un espace** pour être interprétés correctement.  
+
+**Exemple :**
+- **Entrée** : `3 1 2 + *`
+- **Sortie** : `Le résultat est 5`
+
+---
+
+### 2️⃣ **Transformation d'expressions infixes en suffixées**
+🔹 Transforme une expression en notation infixe (classique) vers la notation suffixée.  
+🔹 Cela permet de simplifier les calculs et d'utiliser d'autres fonctionnalités.  
+
+**Exemple :**
+- **Entrée** : `3 * 1 + 2`
+- **Sortie** : `Expression suffixée : 3 1 * 2 +`
+
+---
+
+### 3️⃣ **Construction d'un arbre binaire à partir d'une expression**
+🔹 Construit un **arbre binaire** à partir d'une expression suffixée.  
+🔹 Affiche plusieurs informations :
+  - La représentation en **notation suffixée**.
+  - La représentation en **notation infixe** avec parenthèses.
+  - Le **résultat** de l'évaluation.
+🔹 L'arbre est visualisé sous forme hiérarchique.
+Arbre binaire :
+|– Opérateur: +
+|– Opérateur: *
+|– Valeur: 3
+|– Valeur: 1
+|– Valeur: 2
+Résultat : 5
 
 
-* Exercice 2
+---
 
-transformation d'une expression infixe en expression suffixée :
+### 4️⃣ **Dérivation d'expressions infixes**
+🔹 Calcule la **dérivée** d'une expression infixe contenant une variable (`X`).  
+🔹 Affiche l'arbre binaire de la dérivée et son expression en notation infixe.
 
-au lancement du programme il vous sera demander d'entrer une expression infixe, puis le programme affichera l'expression suffixée correspondante. 
+**Exemple :**
+- **Entrée** : `3 * X + 2`
+- **Sortie** :
+Arbre dérivé :
+|– Opérateur: +
+|– Opérateur: *
+|– Valeur: 3
+|– Variable: X
+|– Valeur: 0
+Expression dérivée (infixe) : ((3 * X) + 3) + 0
+---
 
-* Exercice 3
+## 🛠️ Installation et Utilisation
 
-construction d'un arbre binaire à partir d'une expression suffixée :
+1. **Cloner le projet :**
+   ```bash
+   git clone https://github.com/votre-utilisateur/votre-projet.git
+   cd votre-projet
 
-Au lancement du programme il vous sera demander d'entrer une expression infixé, puis le programme affichera l'arbre binaire correspondant. l'expression infixé correspondante est dans un premier temps affichée en notation suffixée, puis l'arbre correspondant est affiché, suivit du resultat. Enfin, l'arbre est lu et traduit en expression infixé avec les parenthéses necessaires. 
+ 📂 Structure du Projet
+	•	exo_1 : Évaluation d’expressions suffixées.
+	•	exo_2 : Transformation infixe → suffixée.
+	•	exo_3 : Construction et affichage d’arbres binaires.
+	•	exo_4 : Dérivation et affichage des arbres dérivés.
 
+   👨‍💻 Auteur
 
-
-* Exercice 4
-
-Dérivation d'une expression infixé et affichage de l'arbre binaire correspondant et de l'expression infixé dérivée :
-Au lancement du programme il vous sera demander d'entrer une expression infixé. 
-
-
-
+Malek Ghabi
+Projet réalisé dans le cadre de la Programmation Orientée Objet (POO) - Année 2024.
 
 * Exemple terminale:
 * <img width="586" alt="Capture d’écran 2024-06-01 à 23 50 24" src="https://github.com/malekghabi1607/-Expression-arithmetique-cpp/assets/145768940/d0e96764-7a3a-4741-b26c-94483fc64533">
