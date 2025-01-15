@@ -62,8 +62,6 @@ L'objectif de ce projet est de manipuler, évaluer et visualiser des **expressio
 	•	exo_3 : Construction et affichage d’arbres binaires.
 	•	exo_4 : Dérivation et affichage des arbres dérivés.
 
-   -
-
 ## 👨‍💻 Auteur
 
 Malek Ghabi
