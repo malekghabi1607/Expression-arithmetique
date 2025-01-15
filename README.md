@@ -35,13 +35,13 @@ L'objectif de ce projet est de manipuler, évaluer et visualiser des **expressio
   - La représentation en **notation infixe** avec parenthèses.
   - Le **résultat** de l'évaluation.
 🔹 L'arbre est visualisé sous forme hiérarchique.
-Arbre binaire :
-|– Opérateur: +
-|– Opérateur: *
-|– Valeur: 3
-|– Valeur: 1
-|– Valeur: 2
-Résultat : 5
+- Arbre binaire :
+- |– Opérateur: +
+- |– Opérateur: *
+- |– Valeur: 3
+- |– Valeur: 1
+- |– Valeur: 2
+- Résultat : 5
 
 
 ---
